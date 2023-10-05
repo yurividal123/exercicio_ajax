@@ -39,8 +39,29 @@ header .container {
     height: 180px;
 }
 
-.profile-name {
-    font-size: 2em;
+.profile-input {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 12px;
+    padding-left: 50px;
+}
+
+.profile-input--item {
+    text-align: center;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.profile-input button {
+    background-color: #01a3a4;
+}
+
+.btn {
+    padding: 0 12px;
+    color: #fff;
 }
 
 .profile-username {
@@ -69,4 +90,9 @@ header .container {
 
 .numbers-item h4 {
     font-size: .3em;
+}
+
+button {
+    font-size: 16px;
+    border-radius: 6px;
 }
